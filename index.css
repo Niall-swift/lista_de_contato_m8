@@ -1,0 +1,83 @@
+body{
+    background: url(https://picsum.photos/seed/picsum/3280/3280)center/cover;
+    font-family: sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.add,
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+
+    >h1{
+        text-transform: uppercase;
+        color: #ffffffc5;
+    }
+    >input{
+        width: 100%;
+        max-width: 220px;
+        padding: 10px;
+        margin: 15px;
+        border: 1px solid #ffffff9a;
+        background: #ffffff5d;
+        border-radius: 11px;
+        outline: none;
+    }
+    >button{
+        width: 100%;
+        max-width: 120px;
+        border: 1px solid #ffffff9a;
+        background: #ffffff8c;
+        border-radius: 15px;
+        padding: 10px;
+        cursor: pointer;
+        transition: .7s;
+        text-transform: uppercase;
+    }
+    >button:hover{
+        background-color: rgba(255, 255, 255, 0.797);
+        transition: .7s;
+    }
+}
+section{
+    width: 100%;
+    max-width: 1280px;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    backdrop-filter: blur(20rem);
+    filter: saturate(1.75);
+    border-radius: 20px;
+    padding: 15px;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    height: 70vh;
+    overflow: auto;
+}
+table th, table td{
+    padding: 1.5em;
+    text-align: center;
+    background: #fdfdfd60;
+    border-radius: 11px;
+}
+
+table th{
+    font-size: 0.85em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+
+
+
+
